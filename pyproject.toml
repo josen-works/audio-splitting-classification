@@ -1,0 +1,14 @@
+[project]
+name = "demucs-yamnet-audio-pipeline"
+version = "0.1.0"
+description = "Separate audio into stems with Demucs, then classify each stem with YAMNet"
+requires-python = ">=3.10"
+dependencies = []  # see requirements.txt
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["slow: downloads models and runs them (Demucs + YAMNet)"]

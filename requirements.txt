@@ -1,0 +1,15 @@
+# Separation (Demucs runs on PyTorch)
+torch>=2.1
+torchaudio>=2.1
+demucs>=4.0.1
+# Classification (YAMNet from TensorFlow Hub)
+tensorflow>=2.15
+tensorflow-hub>=0.16
+# Audio / data / plots
+soundfile>=0.12
+librosa>=0.10
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+# Tests
+pytest>=8.0
